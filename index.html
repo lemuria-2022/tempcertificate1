@@ -25,19 +25,18 @@
   background-color: #04AA6D;
   color: white;
 }
+.searchbar{
+	float: left;
+	}
 
-#myInput {
-   float: right;
-	}
-#button1 {
-	float: right;
-	}
 </style>
 </head>
 
 <body>
+<div class= "searchbar">
 <input type="text" id="myInput", placeholder="LA-0000">
 <button id="button1" onclick="searchTable()">Submit</button>
+</div>
 <script type="text/javascript">
 	function searchTable() {
     var input, filter, found, table, tr, td, i, j;
